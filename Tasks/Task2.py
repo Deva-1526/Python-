@@ -1,0 +1,9 @@
+a=10
+b=20
+print("The addition of a & b:", a+b)
+print("The subtraction of a&b:", a-b)
+print("The multiplication of a&b:", a*b)
+print("The division of a&b:", a/b)
+print("The modulus of a&b:", a%b)
+
+
