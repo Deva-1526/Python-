@@ -12,3 +12,8 @@ print("The division of a&b:", a/b)
 print("The modulus of a&b:", a%b)
 
 #Square Root 
+num=int(input("Enter the number:"))
+sqrt = num**0.5
+print("Square root:", sqrt)
+
+#Area of a Triangle 
