@@ -28,3 +28,23 @@ b=90
 print("(a+b)^2=", a+b**2)
 print("(a-b)^2=", a-b**2)
 print("a^2-b^2=", (a**2)-(b**2))
+
+#swap two variables with & without variable
+a=30
+b=20
+
+var=a
+a=b
+b=var
+print("with using variable")
+print("swapping:")
+print("a=", a)
+print("b=",b)
+
+a=40
+b=30
+a,b = b,a
+print("without using variable")
+print("swapping:")
+print("a=", a)
+print("b=",b)
